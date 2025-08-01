@@ -12,12 +12,17 @@ public class ClassA {
 
 	}
 	
+	private void EmpPhone() {
+		System.out.println("Emp Phone no is:6743703620");
+	}
+	
 	public static void main(String[] args) {
 		
 		ClassA c =new ClassA();
 		
 		c.EmpId();
 		c.EmpName();
+		c.EmpPhone();
 				
 		
 		
